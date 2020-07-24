@@ -9,6 +9,9 @@ func main() {
   var usuarioHarbor string
   var senhaHarbor string
 
+  fmt.Println("Encoding docker config by username and password")
+  fmt.Println("                     by EricoGR 20200723 v0.0.1\n")
+
   fmt.Printf("Digite o usuário harbor: ")
   fmt.Scanln(&usuarioHarbor)
 
