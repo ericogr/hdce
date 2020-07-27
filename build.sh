@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-package="bitbucket.org/ericogr/hdce"
+package="github.com/ericogr/hdce"
 package_split=(${package//\// })
 package_name=${package_split[-1]}
 platforms=("windows/amd64" "linux/amd64")
